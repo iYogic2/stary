@@ -4,7 +4,7 @@ dist/
 _site/
 
 # editor config
-.vscode/
+# .vscode/
 .idea
 *.iml
 *.swp

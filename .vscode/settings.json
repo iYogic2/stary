@@ -1,0 +1,19 @@
+{
+  // 关闭默认js格式化程序
+  "javascript.format.enable": false,
+  // 保存的时候自动格式化
+  "editor.formatOnSave": true,
+  // 默认格式化工具选择prettier, 会通过prettier格式化除了js jsx ts tsx的所有文件
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Eslint插件配置
+  // 设置保存时是否自动修复代码
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // eslint检测的语言类型，默认是javascript和javascriptreact
+  // 新版本的eslint插件可以直接检测typescript然后开启
+  // 但是正确配置之后不能直接开启就加上了
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "prettier.useEditorConfig": true,
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
