@@ -1,15 +1,20 @@
 {
   "name": "my_npm_package",
   "version": "1.0.0",
-  "description": "",
+  "description": "some utils and hooks for jsx",
+  "keywords": [
+    "stary",
+    "js-utils",
+    "js-hooks"
+  ],
+  "author": "yogic",
+  "license": "ISC",
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "typescript": "^4.7.4"
   },
