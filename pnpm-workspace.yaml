@@ -1,5 +1,3 @@
 packages:
-  # all packages in direct subdirs of hooks/
-  - 'hooks/*'
-  # all packages in subdirs of utils/
-  - 'utils/*'
+  # all packages in direct subdirs of hooks/utils
+  - 'packages/*'
