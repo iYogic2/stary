@@ -1,9 +1,9 @@
 {
-  "name": "stary",
+  "name": "starry",
   "version": "1.0.0",
   "description": "some utils and hooks for jsx",
   "keywords": [
-    "stary",
+    "starry",
     "js-utils",
     "js-hooks"
   ],
