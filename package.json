@@ -16,9 +16,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@babel/core": "^7.18.13",
     "typescript": "^4.7.4"
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.18.9",
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
     "@typescript-eslint/eslint-plugin": "^5.35.1",
@@ -31,6 +33,6 @@
     "prettier": "^2.7.1"
   },
   "lint-staged": {
-    "packages/**/*.{js,jsx,ts,tsx}": "npm run lint"
+    "packages/utils/src/**/*.{js,jsx,ts,tsx}": "npm run lint"
   }
 }

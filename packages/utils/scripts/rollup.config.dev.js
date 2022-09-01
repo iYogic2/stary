@@ -4,17 +4,14 @@ import typescript from '@rollup/plugin-typescript';
 
 export default defineConfig({
   input: './src/index.ts',
+  external: ['lodash', /node_modules/],
   output: [
     {
-      file: 'dist/bundle.cjs.js',
-      format: 'cjs'
-    },
-    {
-      file: 'dist/bundle.esm.js',
+      file: 'dist/esm/bundle.esm.js',
       format: 'esm'
     },
     {
-      file: 'dist/index.umd.js',
+      file: 'dist/umd/index.umd.js',
       format: 'umd',
       name: 'starryUtils"'
     }

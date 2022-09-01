@@ -14,7 +14,7 @@ export interface paramObj {
 }
 export type filterArray = string[] | [];
 
-export function omitObject(paramObj: paramObj, filterArray: filterArray) {
+export default function omitObject(paramObj: paramObj, filterArray: filterArray) {
   if (!(paramObj && typeof paramObj === 'object' && Object.prototype.toString.call(paramObj).includes('Object'))) {
     return [{}, {}];
   }

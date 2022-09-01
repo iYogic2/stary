@@ -1,9 +1,9 @@
 module.exports = {
   root: true,
-  global: {
-    jsx,
-    react,
-    reactDom
+  globals: {
+    jsx: true,
+    react: true,
+    reactDom: true
   },
   env: {
     browser: true,

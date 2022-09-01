@@ -13,7 +13,7 @@
 type TrepeatItem = string | number | boolean | null | undefined;
 type IrepeatArray = TrepeatItem[];
 
-export function hasRepeatItem(array: IrepeatArray): boolean {
+export default function hasRepeatItem(array: IrepeatArray): boolean {
   if (array && Array.isArray(array)) {
     const newAarry = Array.from(new Set(array));
     return !(newAarry.length === array.length);

@@ -7,7 +7,7 @@
  *      var a = [] // isEffectArray(a) => false
  *      var a = [1,2] // isEffectArray(a) => true
  */
-export function isEffectArray(array: any[]): boolean {
+export default function isEffectArray(array: any[]): boolean {
   if (array && Array.isArray(array) && array.length > 0) {
     return true;
   }

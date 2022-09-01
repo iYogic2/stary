@@ -1,2 +1,5 @@
-export { isEffectArray } from './isEffectArray';
-export { hasRepeatItem } from './hasRepeatItem';
+import hasRepeatItem from './hasRepeatItem';
+import isEffectArray from './isEffectArray';
+import omitObject from './omitObject';
+
+export { hasRepeatItem, isEffectArray, omitObject };
