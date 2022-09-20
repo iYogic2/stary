@@ -5,7 +5,7 @@ import { cloneDeep } from 'lodash';
  * @returns [inlineObj,outSideObj] inlineObj包含的对象集合 outSideObj不包含的对象集合
  * @example
  *      omitObject(paramObj:{a:1,b:3}, filterArray: ["a"]) // [{a:1},{b:3}]
- *      omitObject(paramObj:{a:1,b:3}, filterArray: []) // [{a:1,b:3},{}]
+ *      omitObject(paramObj:{a:1,b:3}, filterArray: [])    // [{},{a:1,b:3}]
  *      omitObject(paramObj:{a:1,b:3}, filterArray: ["c"]) // [{},{a:1,b:3}]
  */
 
